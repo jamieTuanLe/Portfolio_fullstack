@@ -35,6 +35,7 @@ function Navbar() {
                         <ul>
                             {['home', 'about', 'work', 'skills', 'testimonial', 'contact'].map((item) => (
                                 <li key={item}>
+                                    <span />
                                     <a
                                         href={`#${item}`}
                                         onClick={() => setToggle(false)}
