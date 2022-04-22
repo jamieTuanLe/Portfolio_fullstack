@@ -3,6 +3,11 @@
     width: 100%;
     flex-direction: column;
     justify-content: flex-start;
+    @media screen and(max-width: 450px){
+        h2 {
+            margin-top: 3rem;
+        }
+    }
 }
 
 .app__skills-container {

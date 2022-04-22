@@ -40,11 +40,11 @@ function Work() {
     return (
         <>
             <h2 className="head-text">
-                My creative <span>Portfolio</span> Section
+                My creative <span>Project</span> Section
             </h2>
 
             <div className="app__work-filter">
-                {['UX/UI', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, i) => (
+                {['UX/UI', 'OOP', 'APIs', 'React JS', 'All'].map((item, i) => (
                     <div
                         key={i}
                         onClick={() => handleWorkFilter(item)}

@@ -3,6 +3,11 @@
     width: 100%;
     flex-direction: column;
     margin-top: 1rem;
+    @media screen and(max-width: 450px){
+        h2 {
+            margin-top: 2rem;
+        }
+    }
 }
 
 .app__work-filter {
